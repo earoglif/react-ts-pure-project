@@ -1,6 +1,6 @@
 {
     "name": "react-ts-pure-project",
-    "version": "1.0.2",
+    "version": "1.0.6",
     "description": "",
     "bin": {
         "react-ts-pure-project": "./cli.js"
@@ -40,5 +40,9 @@
         "webpack": "^5.72.0",
         "webpack-cli": "^4.9.2",
         "webpack-dev-server": "^4.9.0"
+    },
+    "preferGlobal": true,
+    "engines": {
+        "node": ">= 4"
     }
 }
