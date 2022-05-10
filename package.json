@@ -6,7 +6,7 @@
         "watch": "webpack --watch",
         "build": "webpack",
         "server": "webpack serve",
-        "pub": "build && npm version patch && npm publish"
+        "pub": "npm run build && npm version patch && npm publish"
     },
     "repository": {
         "type": "git",
