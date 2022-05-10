@@ -1,10 +1,7 @@
 {
     "name": "react-ts-pure-project",
-    "version": "1.0.2",
+    "version": "0.0.0-development",
     "description": "",
-    "bin": {
-        "react-ts-pure-project": "./cli.js"
-    },
     "scripts": {
         "start": "webpack serve",
         "build": "webpack",
