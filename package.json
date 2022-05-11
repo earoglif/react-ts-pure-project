@@ -1,14 +1,12 @@
 {
     "name": "react-ts-pure-project",
-    "version": "1.0.6",
+    "version": "1.0.9",
     "description": "",
     "bin": {
         "react-ts-pure-project": "./cli.js"
     },
     "scripts": {
-        "start": "webpack serve",
-        "build": "webpack",
-        "pub": "npm run build && npm version patch --no-git-tag-version && npm publish"
+        "pub": "npm version patch --no-git-tag-version && npm publish"
     },
     "repository": {
         "type": "git",
@@ -25,24 +23,5 @@
         "tabWidth": 4,
         "trailingComma": "none",
         "arrowParens": "avoid"
-    },
-    "dependencies": {
-        "react": "^18.1.0",
-        "react-dom": "^18.1.0"
-    },
-    "devDependencies": {
-        "@types/react": "^18.0.9",
-        "@types/react-dom": "^18.0.3",
-        "@types/webpack": "^5.28.0",
-        "html-webpack-plugin": "^5.5.0",
-        "ts-loader": "^9.3.0",
-        "typescript": "^4.6.4",
-        "webpack": "^5.72.0",
-        "webpack-cli": "^4.9.2",
-        "webpack-dev-server": "^4.9.0"
-    },
-    "preferGlobal": true,
-    "engines": {
-        "node": ">= 4"
     }
 }
