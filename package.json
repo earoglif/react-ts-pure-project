@@ -1,22 +1,11 @@
 {
     "name": "react-ts-pure-project",
     "version": "0.0.0-development",
-    "description": "",
     "scripts": {
         "start": "webpack serve",
         "build": "webpack",
         "pub": "npm run build && npm version patch --no-git-tag-version && npm publish"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/earoglif/react-ts-pure-project.git"
-    },
-    "author": "earoglif",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/earoglif/react-ts-pure-project/issues"
-    },
-    "homepage": "https://github.com/earoglif/react-ts-pure-project#readme",
     "prettier": {
         "singleQuote": true,
         "tabWidth": 4,
