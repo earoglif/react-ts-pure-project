@@ -13,7 +13,7 @@ const runCommand = command => {
 
 const repoName = process.argv[2];
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/earoglif/react-ts-pure-project.git ${repoName}`;
-const installDepsCommand = `cd ${repoName} && npm pkg set name=${repoName} && rm -rf .git && git init && npm install`;
+const installDepsCommand = `cd ${repoName} && npm pkg set name=${repoName} && rm -rf .git && npm install`;
 
 console.log(`Cloning the repository ${repoName}...`);
 const checkedOut = runCommand(gitCheckoutCommand);
