@@ -2,7 +2,7 @@
     "name": "react-ts-pure-project",
     "version": "0.0.0-development",
     "scripts": {
-        "start": "webpack serve",
+        "start": "webpack serve --port 8081",
         "build": "webpack",
         "pub": "npm run build && npm version patch --no-git-tag-version && npm publish"
     },
