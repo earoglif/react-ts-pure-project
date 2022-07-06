@@ -1,6 +1,6 @@
 {
-    "name": "test-pure-99",
-    "version": "1.0.14",
+    "name": "react-ts-pure-project",
+    "version": "1.0.16",
     "description": "",
     "bin": {
         "react-ts-pure-project": "./cli.js"
